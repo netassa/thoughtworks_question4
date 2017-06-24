@@ -11,7 +11,7 @@ Student.prototype = new Person();
 
 Student.prototype.introduce = function () {
   var txt = "My name is " + this.name + ".";
-  txt += "I am " + this.age + " years old.";
-  txt += "I am a Student. I am at Class " + this.kclass + ".";
+  txt += " I am " + this.age + " years old.";
+  txt += " I am a Student. I am at Class " + this.kclass + ".";
   return txt;
 }
